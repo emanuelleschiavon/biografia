@@ -1,0 +1,139 @@
+body{
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2{
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	font-size: 30px;
+}
+
+.subtitulo{
+	clear: both;
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+.titulo-principal{
+	text-align: center;
+	color: #FFF;
+	background-color: #851944;
+	padding: 25px;
+	border-bottom: 10px solid #000;
+	font-size: 60px;
+}
+
+p{
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.barra-navegacao{
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	padding: 20px;
+	text-align: center;
+	float: right;
+}
+
+.foto-joao, aside{
+	float: right;
+	border: solid 10px #000;
+	box-sizing: border-box;
+}
+
+.foto-joao{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+aside{
+	position: relative;
+	top: 310px;
+	right: 0px;
+	width: 15%;
+}
+
+#rodape-pagina{
+	background-color: #000;
+	color: #F2FFFC;
+	padding: 20px;
+}
+
+nav a {
+	color: inherit;
+}
+
+main a{
+	color: #851944;
+}
+
+aside a{
+	font-family: "Open Sans Condensed";
+}
+
+.corpo-principal{
+	width: 720px;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.titulo-navegacao{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong{
+	font-weight: bold;
+}
+
+em{
+	font-style: italic;
+}
+
+.icones-rede-social li{
+	display: inline-block;
+}
+
+.menu-navegacao a{
+	text-transform: lowercase;
+}
+
+.icones-rede-social a{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-indent: -99999px;
+}
+
+.github{
+	background-image: url(../img/github.png);
+}
+
+.twitter{
+	background-image: url(../img/twitter.png);
+}
+
+.linkedin{
+	background-image: url(../img/linkedin.png);
+}
+
+main{
+	width: 85%;
+	float: left;
+	padding-bottom: 80px;
+}
+
+footer{
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}

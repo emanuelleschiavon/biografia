@@ -1,0 +1,14 @@
+main li{
+	border: 8px black solid;
+	background-color: #FAFFFC;
+	padding: 16px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	display: inline-block;
+	width: 45%;
+	box-sizing: border-box;
+}
+
+main img{
+	width: 100%;
+}
